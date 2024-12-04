@@ -3,8 +3,86 @@
     <head>
         <title>Lab 10 Part C</title>
         <meta charset="UTF-8">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <style>
+            img{
+                width: 4%;
+                height: 3%;
+            }
+
+            body{
+                background-image: url('https://i.imgur.com/EVOFpNF.png');
+            }
+
+           p, h1{
+                padding: 40px;
+            }
+        </style>
+        
     </head>
     <body>
-        <h1>Hello Worls</h1>
+        <header class="card-panel teal lighten-2 center-align hoverable flow-text">
+            <h1 class="card-title">Lab 10 Part C</h1>
+            <h3 class="card-title">By: Tiago Gomes Neves</h3>
+            <p>
+                <span> Toronto Metroploitan University</span>
+                <img src="https://www.torontomu.ca/content/dam/brand/global/images/visual-guide/tmu-logo-social-media.jpg" alt="tmu-logo-social-media" class="responsive-image circle">
+                
+            </p>
+        </header>
+
+        <section class="card blue-grey lighten-2 center-align flow-text">
+            <div class="card-title">
+                <h1>How I installed Materialize</h1>
+            </div>
+
+            <div class="card-content">
+            <p>There are many ways of installing materialize and using it. They way I did it is linking materialize
+                using CDN links. This is the easiest options as you just have to include and link the appropaite links.
+                You are also able to download the materialize files and link the appropiate css and javascript sheets.
+                <a class="btn-floating pulse"><i class="medium material-icons">check</i></a>
+            </p>
+            </div>
+        </section>
+
+        <section class="card teal lighten-2 center-align flow-text mdeium">
+            <div class="card-title">
+                <h1>How I built the page</h1>
+            </div>
+            <div  class="card-content">
+            <p>Materialize has many easy-to-implement actions/components to help build your site.
+               One of the first components I used was their custom colors. To use their custom colors,
+               you simply have to add the color as a class fot the html element. I then used materialized
+               card option to build my own custom cards for content. The card option has a card container, then you build a 
+               card title div and a card-content div There are also card-image which allows you to add a image to a card. Materilaize also has its own custom icons that are aeasy to use, I used them for on a button 
+               then added a btn-floating pulse class to it so that it flashes. I also used many other options like hover class for the header to
+               have a unique animation when hovered over, align classes which helps align the content which ever way you want, text options like flox-text which helps the 
+               text flow better.
+            </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-image">
+                <img src="https://i.imgur.com/0sKrqHt.jpeg" alt="landscape-of-forrest">
+                <span class="card-title" style="text-shadow: 4px 3px 2px black;">Difficulties of using Materialize</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+                <p>There isnt much Difficulties when using materialize, except for the amount of options and components you can choose from.
+                    The hardest part for me however was understanding the "Card" classes and thir structure. With these classses you can easily create
+                    cards on your page with content in seconds however you will have to understand how to sturcute each card class properly
+                    so that the card is built correctly.
+                </p>
+            </div>
+        </section>
     </body>
 </html>
